@@ -1,11 +1,11 @@
 # Software testing
 ## Basic Overview
 Software testing provides information about the quality of the software.
-Test techniques usually try to run the program in a way with the intention to find bugs
-Under an agile approach programming and testing are done simultaneously
-Software bugs cost the U.S. economy $59.5 billion annually
-Generally goes from Unit testing, to Integration testing, to System testing, to Acceptance testing
-The earlier a bug is found the cheaper it is to fix
+Test techniques usually try to run the program in a way with the intention to find bugs.
+Under an agile approach programming and testing are done simultaneously.
+Software bugs cost the U.S. economy $59.5 billion annually.
+Generally goes from Unit testing, to Integration testing, to System testing, to Acceptance testing.
+The earlier a bug is found the cheaper it is to fix.
 ## Types of testing
 ### Static Testing
 A person going through the code
