@@ -33,10 +33,10 @@ Tests to see if the software is handling increasing workloads well
 ### Volume testing
 Tests how well software performs with large amounts of data
 ## Tips on testing
-..* Analyze test results thoroughly
-..* Maximize test coverage
-..* Intend to find bugs
-..* Group test cases for regression testing
-..* Go beyond requirement testing
-..* Clarity in bug reporting
-..* Find the "good enough" threshold
+* Analyze test results thoroughly
+* Maximize test coverage
+* Intend to find bugs
+* Group test cases for regression testing
+* Go beyond requirement testing
+* Clarity in bug reporting
+* Find the "good enough" threshold
