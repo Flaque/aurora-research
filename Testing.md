@@ -41,5 +41,10 @@ Tests how well software performs with large amounts of data
 * Clarity in bug reporting
 * Find the "good enough" threshold
 
+<<<<<<< HEAD
 #author
 Scott Rein
+=======
+#edited branch
+scott
+>>>>>>> test1
