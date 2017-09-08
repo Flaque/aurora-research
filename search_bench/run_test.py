@@ -1,5 +1,6 @@
 import json
 from subprocess import call
+from results import parse_results, score
 
 
 """
@@ -45,10 +46,10 @@ Returns:
 def test_search(dataset_file, command, test):
     search_text = test["search_text"]
     n_results = len(test["results"])
-    call([command, dataset_file, search_text, n_results])
+    output = check_output([command, dataset_file, search_text, n_results])
 
-    # read stdout of search algorithm
-    #
-    # run hueristics on results
+    results = parse_results(output)
+    score = score(test["results"], results["query_results"])
+    results["score"] = score
 
-    return None
+    return results
