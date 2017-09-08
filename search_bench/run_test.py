@@ -3,6 +3,7 @@ from subprocess import call
 from results import parse_results, score
 
 
+def run_tests(test_file):
 """
 Runs a test file and all of its tests.
 
@@ -12,7 +13,6 @@ Params:
 Returns:
     ???
 """
-def run_tests(test_file):
     tests = load_json(test_file)
 
     dataset = test["dataset_file"]
@@ -25,13 +25,15 @@ def run_tests(test_file):
     print metrics
 
 
+def load_json(jfile):
 """
 Loads json from a file
 """
-def load_json(jfile):
     with open(jfile) as json_file:
         return json.load(json_file)
 
+
+def test_search(dataset_file, command, test):
 """
 Tests a specific search_text on the algorithm
 
@@ -43,7 +45,6 @@ Params:
 Returns:
     Result hueristics
 """
-def test_search(dataset_file, command, test):
     search_text = test["search_text"]
     n_results = len(test["results"])
     output = check_output([command, dataset_file, search_text, n_results])

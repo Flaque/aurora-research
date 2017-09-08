@@ -13,32 +13,32 @@
     "uuid":3,
     "text":"How do functional languages like elixir work?",
     "tags":["function","elixir"]
-  }
+  },
   {
     "uuid":4,
     "text":"Click is a useful python library",
     "tags":["python"]
-  }
+  },
   {
     "uuid":5,
     "text":"I love assembly. Like, I want to marry it",
     "tags":["c"]
-  }
+  },
   {
     "uuid":6,
     "text":"Is there even a difference between java and javascript?",
     "tags":["java","javascript"]
-  }
+  },
   {
     "uuid":7,
     "text":"I think the http protocol is quite incredible. In fact, it might be a more important invention than the selfie stick.",
     "tags":["http"]
-  }
+  },
   {
     "uuid":8,
     "text":"git reset --hard: the secret to success",
     "tags":["git"]
-  }
+  },
   {
     "uuid":9,
     "text":"git commit -m 'my message'",
