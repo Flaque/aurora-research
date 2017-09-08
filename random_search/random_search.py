@@ -8,11 +8,12 @@ data_file = sys.argv[1]
 search_text = sys.argv[2]
 n_result = int(sys.argv[3])
 
-# load in data
+print("Reading in data")
 data = None
 with open(data_file) as json_file:
     data = json.load(json_file)
 
+print("Searching")
 # run our search algorithm: select random results!
 a = datetime.datetime.now()
 result_ids = []
