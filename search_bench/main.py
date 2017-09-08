@@ -1,4 +1,5 @@
 from results import parse_results, score
+from run_test import run_test
 
 print(parse_results("""
 
