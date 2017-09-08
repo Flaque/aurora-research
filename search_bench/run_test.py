@@ -2,6 +2,15 @@ import json
 from subprocess import call
 
 
+"""
+Runs a test file and all of its tests.
+
+Params:
+    test_file: should contain command, dataset_file, and tests.
+
+Returns:
+    ???
+"""
 def run_tests(test_file):
     tests = load_json(test_file)
 
@@ -15,11 +24,24 @@ def run_tests(test_file):
     print metrics
 
 
+"""
+Loads json from a file
+"""
 def load_json(jfile):
     with open(jfile) as json_file:
         return json.load(json_file)
 
+"""
+Tests a specific search_text on the algorithm
 
+Params:
+    dataset_file: file containing our test dataset
+    command: command to run search algorithm
+    test: test object
+
+Returns:
+    Result hueristics
+"""
 def test_search(dataset_file, command, test):
     search_text = test["search_text"]
     n_results = len(test["results"])
