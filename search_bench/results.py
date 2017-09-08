@@ -43,6 +43,27 @@ def parse_results(device_under_test_output):
             parsed_results["query_results"].append(output_line)
     
     return parsed_results
+
+def score(test_results_expected, device_under_test_results):
+    """
+    This function scores the results of the algorithm by comparing its output to the expected output.
+    Scoring the algorithm by comparing the number of correct uuids produced as comparted to the expectation.
+
+    PARAMS:
+        test_results_expected:[strings] - this parameter should be a list of uuids that were expected.
+
+        device_under_test_results:[strings] - this paramter should be a list of uuids that the device under
+        test returned.
+
+    OUTPUT
+        float - the percentage of correct results that the algorithm returned indepdant of order.
+    """
+
+    test_set = set(test_results_expected)
+    dut_set  = set(device_under_test_results) 
+
+    set_difference = test_set - dut_set
+    return (len(test_set) - len(set_difference)) / len(test_set)
         
 
 

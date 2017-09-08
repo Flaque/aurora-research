@@ -1,4 +1,4 @@
-from results import parse_results
+from results import parse_results, score
 
 print(parse_results("""
 
@@ -22,3 +22,5 @@ __END_RESULTS__
 foiwejfoiwejoif
 fwjeiofjweiojf
 """))
+
+print(score(["test", "woo"], ["test", "shoo"]))
