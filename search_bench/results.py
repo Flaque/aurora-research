@@ -41,7 +41,6 @@ def parse_results(device_under_test_output):
             state = "query_results"
         elif state == "query_results":
             parsed_results["query_results"].append(output_line)
-
     
     return parsed_results
         
