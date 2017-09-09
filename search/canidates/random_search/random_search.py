@@ -17,7 +17,7 @@ print("Searching")
 # run our search algorithm: select random results!
 a = datetime.datetime.now()
 result_ids = []
-for index in random.sample(range(0, len(data)-1), n_result):
+for index in random.sample(range(0, len(data) - 1), n_result):
     result_id = data[index]["uuid"]
     result_ids.append(result_id)
 elapsed = datetime.datetime.now() - a
