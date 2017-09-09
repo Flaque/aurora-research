@@ -10,12 +10,12 @@ pip install tabulate
 ## Try it
 From the root of this repo: (python3)
 ```
-python search_bench/main.py canidates/random_search/test_batch1.json
+python search_bench/main.py candidates/random_search/test_batch1.json
 ```
 
 or if you'd like pretty printed output, add a `-pretty` to the end of the command:
 ```
-python search_bench/main.py canidates/random_search/test_batch1.json -pretty
+python search_bench/main.py candidates/random_search/test_batch1.json -pretty
 ```
 
 ## Use
