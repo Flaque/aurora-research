@@ -25,5 +25,16 @@ import sys
 # fwjeiofjweiojf
 # """))
 
+
+def hasPrettyFlag():
+    if len(sys.argv) < 3:
+        return False
+    if sys.argv[2] == "-pretty":
+        return True
+    raise Exception(
+        "Bad Input", "Expecting pretty flag, but got something else.")
+
+
 test_file = sys.argv[1]
-run_tests(test_file)
+isPretty = True if hasPrettyFlag() else False
+run_tests(test_file, isPretty)

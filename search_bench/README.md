@@ -1,10 +1,21 @@
 # Search Bench
 A "test-bench" like tool that facilitates standardized testing of various search algorithms on large datasets.
 
+## Setup
+Install tabulate
+```
+pip install tabulate
+```
+
 ## Try it
 From the root of this repo: (python3)
 ```
 python search_bench/main.py random_search/test_batch1.json
+```
+
+or if you'd like pretty printed output, add a `-pretty` to the end of the command:
+```
+python search_bench/main.py random_search/test_batch1.json -pretty
 ```
 
 ## Use

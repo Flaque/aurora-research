@@ -1,9 +1,10 @@
 import json
+from tabulate import tabulate
 from subprocess import check_output
 from results import parse_results, score
 
 
-def run_tests(test_file):
+def run_tests(test_file, isPretty=False):
     """
     Runs a test file and all of its tests.
 
@@ -22,7 +23,10 @@ def run_tests(test_file):
         metrics.append(test_search(dataset, command, test))
 
     # average/min/max metrics
-    print metrics
+    if isPretty:
+        print tabulate(metrics, headers="keys")
+    else:
+        print metrics
 
 
 def load_json(jfile):
