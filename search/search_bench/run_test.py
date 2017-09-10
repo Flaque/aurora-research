@@ -61,5 +61,6 @@ def test_search(dataset_file, command, test):
     results = parse_results(output)
     rscore = score(test["results"], results["query_results"])
     results["score"] = rscore
+    results["expected_query_results"] = test["results"]
 
     return results
