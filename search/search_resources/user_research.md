@@ -24,3 +24,8 @@ This tested two things:
 Most users were able to create a note. However, no users were able to find a previous note by searching. Some users attempted to use hot keys like `cmd-f`, others tried to look through the top bar, but none figured out how to search. Most tried to click on the note.
 
 However, this may have been because they had all their notes on the screen and therefore searching seems a little pointless since they could just point to their note. As such, this question will need further exploration.
+
+## TL;DR
+* Users tried to use `cmd-f` to search.
+* Most users couldn't search when told
+* Most users figured out how to add a note.
