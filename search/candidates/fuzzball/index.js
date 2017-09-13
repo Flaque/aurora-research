@@ -40,6 +40,13 @@ function get_result_ids(results) {
   return results.map(function(note) {return note.uuid;});
 }
 
+function get_ms (start, finish){
+  var difference= new Date();
+  difference.setTime(finish.getTime() - start.getTime());
+  var difference_ms= difference.getMilliseconds();
+  return difference_ms;
+}
+
 // ---------------- Main ------------------
 
 var args = get_args(process.argv);
@@ -49,17 +56,13 @@ var start_setup= new Date();
 var fuse = populate_fuse(items);
 var end_setup= new Date();
 
-var setup_time= new Date();
-setup_time.setTime(end_setup.getTime() - start_setup.getTime());
-var setup_time_ms= setup_time.getMilliseconds();
+var setup_time_ms=get_ms(start_setup, end_setup);
 
 var search_start= new Date();
 var results = search_fuse(fuse, args['search_text'], args['n_results']);
 var search_end = new Date();
 
-var search_time = new Date();
-search_time.setTime(search_end.getTime() - search_start.getTime());
-var search_time_ms=search_time.getMilliseconds();
+var search_time_ms= get_ms(search_start, search_end);
 
 var result_ids = get_result_ids(results);
 // print out results in proper format
