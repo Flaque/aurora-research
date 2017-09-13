@@ -43,5 +43,15 @@
     "uuid":9,
     "text":"git commit -m 'my message'",
     "tags":["git"]
+  },
+  {
+    "uuid":10,
+    "text":"git push uploads your progess to the repo",
+    "tags":["git"]
+  },
+  {
+    "uuid":11,
+    "text":"css makes my webpages look sexy",
+    "tags":["css","webpages"]
   }
 ]
