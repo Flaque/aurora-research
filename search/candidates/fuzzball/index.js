@@ -44,15 +44,28 @@ function get_result_ids(results) {
 
 var args = get_args(process.argv);
 var items = get_items_from_file(args['dataset_file']);
-var fuse = populate_fuse(items);
-var results = search_fuse(fuse, args['search_text'], args['n_results']);
 
+var start_setup= new Date();
+var fuse = populate_fuse(items);
+var end_setup= new Date();
+
+var setup_time= new Date();
+setup_time.setTime(end_setup.getTime() - start_setup.getTime());
+var setup_time_ms= setup_time.getMilliseconds();
+
+var search_start= new Date();
+var results = search_fuse(fuse, args['search_text'], args['n_results']);
+var search_end = new Date();
+
+var search_time = new Date();
+search_time.setTime(search_end.getTime() - search_start.getTime());
+var search_time_ms=search_time.getMilliseconds();
 
 var result_ids = get_result_ids(results);
-
-
 // print out results in proper format
 console.log("__RESULTS__");
+console.log(setup_time_ms);
+console.log(search_time_ms);
 result_ids.forEach(function(id) {
     console.log(id);
 });
