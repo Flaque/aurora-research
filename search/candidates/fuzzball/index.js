@@ -18,27 +18,42 @@ function get_items_from_file(file) {
 function populate_fuse(items) {
 
   var options = {
-    shouldSort: true,
-    threshold: 0.9,
+    shouldSort: true, // puts best match first
+    threshold: 0.9, // 0 requires perfect match, 1 will match everything
     location: 0,
     distance: 100,
     maxPatternLength: 32,
     minMatchCharLength: 1,
     keys: [
-      "text"
+      "text"  // TODO: search by tags also
     ]
   };
 
   return new Fuse(items, options);
 }
 
-function search_fuse(fuse, search_text) {
-  return fuse.search(search_text);
+function search_fuse(fuse, search_text, n_results) {
+  return fuse.search(search_text).slice(0, n_results);
 }
+
+function get_result_ids(results) {
+  return results.map(function(note) {return note.uuid;});
+}
+
+// ---------------- Main ------------------
 
 var args = get_args(process.argv);
 var items = get_items_from_file(args['dataset_file']);
 var fuse = populate_fuse(items);
-var results = search_fuse(fuse, args['search_text']);
+var results = search_fuse(fuse, args['search_text'], args['n_results']);
 
-console.log(results);
+
+var result_ids = get_result_ids(results);
+
+
+// print out results in proper format
+console.log("__RESULTS__");
+result_ids.forEach(function(id) {
+    console.log(id);
+});
+console.log("__END_RESULTS__");
