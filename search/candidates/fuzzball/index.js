@@ -37,8 +37,18 @@ function search_fuse(fuse, search_text) {
 }
 
 var args = get_args(process.argv);
+var start_setup= new Date();
 var items = get_items_from_file(args['dataset_file']);
 var fuse = populate_fuse(items);
+var end_setup= new Date();
+var setup_time= new Date();
+setup_time.setTime(end_setup.getTime() - start_setup.getTime());
+var setup_time_ms= setup_time.getMilliseconds();
+var search_start= new Date();
 var results = search_fuse(fuse, args['search_text']);
+var search_end = new Date();
+var search_time = new Date();
+search_time.setTime(search_end.getTime() - search_start.getTime());
+var search_time_ms=search_time.getMilliseconds();
 
 console.log(results);
