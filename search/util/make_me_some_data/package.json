@@ -1,0 +1,17 @@
+{
+  "name": "make_me_some_data",
+  "version": "1.0.0",
+  "description": "Make-me-some-data is a tool to procedurally generate some test data for search. It's pretty crap and we should probably replace it with something better, but it's not a bad tool for creating ALL THE DATA.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinner": "^0.2.6",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
+  }
+}
