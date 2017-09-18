@@ -8,7 +8,7 @@ pip install tabulate
 ```
 
 ## Try it
-From the same folder that this README (/search) is located in: (python3)
+From the same folder that this README (/search) is located in: (python2 or 3)
 ```
 python search_bench/main.py candidates/random_search/test_batch1.json
 ```
