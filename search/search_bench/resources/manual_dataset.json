@@ -141,7 +141,22 @@
   },
   {
     "uuid":29,
-    "text":"why cant i get laid",
+    "text":"how to allocate storage in assembly",
+    "tags":[]
+  },
+  {
+    "uuid":30,
+    "text":"how to declare a variable in jasmin",
+    "tags":[]
+  },
+  {
+    "uuid":31,
+    "text":"how to use cmp in assembly",
+    "tags":[]
+  },
+  {
+    "uuid":32,
+    "text":"how big are registers in x86",
     "tags":[]
   }
 ]
