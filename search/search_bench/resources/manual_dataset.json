@@ -1,162 +1,169 @@
 [
   {
-    "uuid":1,
-    "text":"Is css even a programming language?",
-    "tags":[]
+    "uuid": 1,
+    "text": "Is css even a programming language?",
+    "tags": []
   },
   {
-    "uuid":2,
-    "text":"Why does python 3 break python 2?",
-    "tags":[]
+    "uuid": 2,
+    "text": "Why does python 3 break python 2?",
+    "tags": []
   },
   {
-    "uuid":3,
-    "text":"How do I create a placeholder prop in React",
-    "tags":[]
+    "uuid": 3,
+    "text":
+      "How do I create a placeholder prop in React by using the placeholder attribute in an editor",
+    "tags": []
   },
   {
-    "uuid":4,
-    "text":"npm install --save try running as root/admin",
-    "tags":[]
+    "uuid": 4,
+    "text":
+      "npm install --save try running as root/admin install things globally",
+    "tags": []
   },
   {
-    "uuid":5,
-    "text":"How to style the placeholder prop in react",
-    "tags":[]
+    "uuid": 5,
+    "text": "How to style the placeholder prop in react use styled components",
+    "tags": []
   },
   {
-    "uuid":6,
-    "text":"draft js editor default text",
-    "tags":[]
+    "uuid": 6,
+    "text": "draft js editor default text placeholder attribute",
+    "tags": []
   },
   {
-    "uuid":7,
-    "text":"How to create prompt text in react",
-    "tags":[]
+    "uuid": 7,
+    "text": "How to create prompt text in react use a placeholder attribute",
+    "tags": []
   },
   {
-    "uuid":8,
-    "text":"How to use css with react",
-    "tags":[]
+    "uuid": 8,
+    "text": "How to use css with react use styled components",
+    "tags": []
   },
   {
-    "uuid":9,
-    "text":"How to format code in slack",
-    "tags":[]
+    "uuid": 9,
+    "text": "How to format code in slack ```code here```",
+    "tags": []
   },
   {
-    "uuid":10,
-    "text":"How to make a list in pyton",
-    "tags":[]
+    "uuid": 10,
+    "text": "How to make a list in pyton",
+    "tags": []
   },
   {
-    "uuid":11,
-    "text":"what are styled components in react",
-    "tags":[]
+    "uuid": 11,
+    "text": "what are styled components in react",
+    "tags": []
   },
   {
-    "uuid":12,
-    "text":"how to pull a remote branch",
-    "tags":[]
+    "uuid": 12,
+    "text":
+      "how to pull a remote branch git checkout --track origin/branchname",
+    "tags": []
   },
   {
-    "uuid":13,
-    "text":"how to create a bit vector in vhdl",
-    "tags":[]
+    "uuid": 13,
+    "text": "how to create a bit vector in vhdl var : bit_vector(1 downto 0)",
+    "tags": []
   },
   {
-    "uuid":14,
-    "text":"how to separate a bit vector in vhld",
-    "tags":[]
+    "uuid": 14,
+    "text": "how to separate a bit vector in vhld use () to select a bit",
+    "tags": []
   },
   {
-    "uuid":15,
-    "text":"how to use std library in vhld",
-    "tags":[]
+    "uuid": 15,
+    "text": "how to use std library in vhld use std_logic_1164.all",
+    "tags": []
   },
   {
-    "uuid":16,
-    "text":"how to push branches correctly",
-    "tags":[]
+    "uuid": 16,
+    "text":
+      "how to push branches correctly make sure youve commited and then git push",
+    "tags": []
   },
   {
-    "uuid":17,
-    "text":"malloc in c",
-    "tags":[]
+    "uuid": 17,
+    "text": "malloc in c",
+    "tags": []
   },
   {
-    "uuid":18,
-    "text":"creating an array in c++",
-    "tags":[]
+    "uuid": 18,
+    "text": "creating an array in c++ var[]=[elements]",
+    "tags": []
   },
   {
-    "uuid":19,
-    "text":"how to make a button in react",
-    "tags":[]
+    "uuid": 19,
+    "text":
+      "how to make a button in react create a button element and style it with css",
+    "tags": []
   },
   {
-    "uuid":20,
-    "text":"steps for staging files in git",
-    "tags":[]
+    "uuid": 20,
+    "text":
+      "steps for staging files in git git status, git add, git status, git commit -m",
+    "tags": []
   },
   {
-    "uuid":21,
-    "text":"error message vcom 1164 in vhdl",
-    "tags":[]
+    "uuid": 21,
+    "text": "error message vcom 1164 in vhdl its a std library error",
+    "tags": []
   },
   {
-    "uuid":22,
-    "text":"how do go back a file in terminal",
-    "tags":[]
+    "uuid": 22,
+    "text": "how do go back a file in terminal cd ..",
+    "tags": []
   },
   {
-    "uuid":23,
-    "text":"how many mega bytes in a gigabyte",
-    "tags":[]
+    "uuid": 23,
+    "text": "how many mega bytes in a gigabyte 1000",
+    "tags": []
   },
   {
-    "uuid":24,
-    "text":"steps on creating an editor in react",
-    "tags":[]
+    "uuid": 24,
+    "text": "steps on creating an editor in react",
+    "tags": []
   },
   {
-    "uuid":25,
-    "text":"css how to style a button",
-    "tags":[]
+    "uuid": 25,
+    "text": "css how to style a button create a button and add css attributes",
+    "tags": []
   },
   {
-    "uuid":26,
-    "text":"creating styled css that works with react",
-    "tags":[]
+    "uuid": 26,
+    "text": "creating styled css that works with react create a styled div",
+    "tags": []
   },
   {
-    "uuid":27,
-    "text":"html styled with css",
-    "tags":[]
+    "uuid": 27,
+    "text": "html styled with css",
+    "tags": []
   },
   {
-    "uuid":28,
-    "text":"syntax for creating a list in python",
-    "tags":[]
+    "uuid": 28,
+    "text": "syntax for creating a list in python",
+    "tags": []
   },
   {
-    "uuid":29,
-    "text":"how to allocate storage in assembly",
-    "tags":[]
+    "uuid": 29,
+    "text": "how to allocate storage in assembly",
+    "tags": []
   },
   {
-    "uuid":30,
-    "text":"how to declare a variable in jasmin",
-    "tags":[]
+    "uuid": 30,
+    "text": "how to declare a variable in jasmin a: DB",
+    "tags": []
   },
   {
-    "uuid":31,
-    "text":"how to use cmp in assembly",
-    "tags":[]
+    "uuid": 31,
+    "text":
+      "how to use cmp in assembly? cmp dest,src have to be register or memory",
+    "tags": []
   },
   {
-    "uuid":32,
-    "text":"how big are registers in x86",
-    "tags":[]
+    "uuid": 32,
+    "text": "how big are registers in x86? 32 bits",
+    "tags": []
   }
 ]
