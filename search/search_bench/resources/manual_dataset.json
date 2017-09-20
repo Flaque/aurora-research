@@ -1,162 +1,342 @@
 [
   {
-    "uuid":1,
-    "text":"Is css even a programming language?",
-    "tags":[]
+    "uuid": 1,
+    "text": "Is css even a programming language?",
+    "tags": []
   },
   {
-    "uuid":2,
-    "text":"Why does python 3 break python 2?",
-    "tags":[]
+    "uuid": 2,
+    "text": "Why does python 3 break python 2?",
+    "tags": []
   },
   {
-    "uuid":3,
-    "text":"How do I create a placeholder prop in React",
-    "tags":[]
+    "uuid": 3,
+    "text": "How do I create a placeholder prop in React",
+    "tags": []
   },
   {
-    "uuid":4,
-    "text":"npm install --save try running as root/admin",
-    "tags":[]
+    "uuid": 4,
+    "text": "npm install --save try running as root/admin",
+    "tags": []
   },
   {
-    "uuid":5,
-    "text":"How to style the placeholder prop in react",
-    "tags":[]
+    "uuid": 5,
+    "text": "How to style the placeholder prop in react",
+    "tags": []
   },
   {
-    "uuid":6,
-    "text":"draft js editor default text",
-    "tags":[]
+    "uuid": 6,
+    "text": "draft js editor default text",
+    "tags": []
   },
   {
-    "uuid":7,
-    "text":"How to create prompt text in react",
-    "tags":[]
+    "uuid": 7,
+    "text": "How to create prompt text in react",
+    "tags": []
   },
   {
-    "uuid":8,
-    "text":"How to use css with react",
-    "tags":[]
+    "uuid": 8,
+    "text": "How to use css with react",
+    "tags": []
   },
   {
-    "uuid":9,
-    "text":"How to format code in slack",
-    "tags":[]
+    "uuid": 9,
+    "text": "How to format code in slack",
+    "tags": []
   },
   {
-    "uuid":10,
-    "text":"How to make a list in pyton",
-    "tags":[]
+    "uuid": 10,
+    "text": "How to make a list in pyton",
+    "tags": []
   },
   {
-    "uuid":11,
-    "text":"what are styled components in react",
-    "tags":[]
+    "uuid": 11,
+    "text": "what are styled components in react",
+    "tags": []
   },
   {
-    "uuid":12,
-    "text":"how to pull a remote branch",
-    "tags":[]
+    "uuid": 12,
+    "text": "how to pull a remote branch",
+    "tags": []
   },
   {
-    "uuid":13,
-    "text":"how to create a bit vector in vhdl",
-    "tags":[]
+    "uuid": 13,
+    "text": "how to create a bit vector in vhdl",
+    "tags": []
   },
   {
-    "uuid":14,
-    "text":"how to separate a bit vector in vhld",
-    "tags":[]
+    "uuid": 14,
+    "text": "how to separate a bit vector in vhld",
+    "tags": []
   },
   {
-    "uuid":15,
-    "text":"how to use std library in vhld",
-    "tags":[]
+    "uuid": 15,
+    "text": "how to use std library in vhld",
+    "tags": []
   },
   {
-    "uuid":16,
-    "text":"how to push branches correctly",
-    "tags":[]
+    "uuid": 16,
+    "text": "how to push branches correctly",
+    "tags": []
   },
   {
-    "uuid":17,
-    "text":"malloc in c",
-    "tags":[]
+    "uuid": 17,
+    "text": "malloc in c",
+    "tags": []
   },
   {
-    "uuid":18,
-    "text":"creating an array in c++",
-    "tags":[]
+    "uuid": 18,
+    "text": "creating an array in c++",
+    "tags": []
   },
   {
-    "uuid":19,
-    "text":"how to make a button in react",
-    "tags":[]
+    "uuid": 19,
+    "text": "how to make a button in react",
+    "tags": []
   },
   {
-    "uuid":20,
-    "text":"steps for staging files in git",
-    "tags":[]
+    "uuid": 20,
+    "text": "steps for staging files in git",
+    "tags": []
   },
   {
-    "uuid":21,
-    "text":"error message vcom 1164 in vhdl",
-    "tags":[]
+    "uuid": 21,
+    "text": "error message vcom 1164 in vhdl",
+    "tags": []
   },
   {
-    "uuid":22,
-    "text":"how do go back a file in terminal",
-    "tags":[]
+    "uuid": 22,
+    "text": "how do go back a file in terminal",
+    "tags": []
   },
   {
-    "uuid":23,
-    "text":"how many mega bytes in a gigabyte",
-    "tags":[]
+    "uuid": 23,
+    "text": "how many mega bytes in a gigabyte",
+    "tags": []
   },
   {
-    "uuid":24,
-    "text":"steps on creating an editor in react",
-    "tags":[]
+    "uuid": 24,
+    "text": "steps on creating an editor in react",
+    "tags": []
   },
   {
-    "uuid":25,
-    "text":"css how to style a button",
-    "tags":[]
+    "uuid": 25,
+    "text": "css how to style a button",
+    "tags": []
   },
   {
-    "uuid":26,
-    "text":"creating styled css that works with react",
-    "tags":[]
+    "uuid": 26,
+    "text": "creating styled css that works with react",
+    "tags": []
   },
   {
-    "uuid":27,
-    "text":"html styled with css",
-    "tags":[]
+    "uuid": 27,
+    "text": "html styled with css",
+    "tags": []
   },
   {
-    "uuid":28,
-    "text":"syntax for creating a list in python",
-    "tags":[]
+    "uuid": 28,
+    "text": "syntax for creating a list in python",
+    "tags": []
   },
   {
-    "uuid":29,
-    "text":"how to allocate storage in assembly",
-    "tags":[]
+    "uuid": 29,
+    "text": "how to allocate storage in assembly",
+    "tags": []
   },
   {
-    "uuid":30,
-    "text":"how to declare a variable in jasmin",
-    "tags":[]
+    "uuid": 30,
+    "text": "how to declare a variable in jasmin",
+    "tags": []
   },
   {
-    "uuid":31,
-    "text":"how to use cmp in assembly",
-    "tags":[]
+    "uuid": 31,
+    "text": "how to use cmp in assembly",
+    "tags": []
   },
   {
-    "uuid":32,
-    "text":"how big are registers in x86",
-    "tags":[]
+    "uuid": 32,
+    "text": "how big are registers in x86",
+    "tags": []
+  },
+  {
+    "uuid": 201,
+    "text":
+      "When npm post-install keeps failing, try: npm install -g. Installs things globally so now you need to run electron globally also.",
+    "tags": []
+  },
+  {
+    "uuid": 202,
+    "text":
+      "Note to self: windows doesn't accept ../.. notation. So annoying ik",
+    "tags": []
+  },
+  {
+    "uuid": 203,
+    "text":
+      "To pull remote branch and clone locally: git checkout --track origin/that-branch",
+    "tags": []
+  },
+  {
+    "uuid": 204,
+    "text": "To align an html element to one side: float left/right.",
+    "tags": []
+  },
+  {
+    "uuid": 205,
+    "text":
+      "When parent div doesn't expand to size of its children: add 'overflow:hidden;'",
+    "tags": []
+  },
+  {
+    "uuid": 206,
+    "text": "How to make div only partial width of container: 'width:70%'",
+    "tags": []
+  },
+  {
+    "uuid": 207,
+    "text":
+      "If your class doesn't recognize one of your functions, add this to constructor():`this.myFunc = this.myFunc.bind(this);`",
+    "tags": []
+  },
+  {
+    "uuid": 208,
+    "text":
+      "Interesting research on reaction times: https://www.nngroup.com/articles/response-times-3-important-limits/",
+    "tags": []
+  },
+  {
+    "uuid": 209,
+    "text":
+      "To pull code from a remote different branch and merge into your local branch: git pull origin other-branch",
+    "tags": []
+  },
+  {
+    "uuid": 210,
+    "text":
+      "To change what type of python is run on `python` command: Go into you ~/.bash_profile, add line `alias python=`python3`",
+    "tags": []
+  },
+  {
+    "uuid": 211,
+    "text": "Software Eng HW: cover section 1 in Project Proposal.",
+    "tags": []
+  },
+  {
+    "uuid": 212,
+    "text": "Inner Join on attributes of the same name: USING (attr)",
+    "tags": []
+  },
+  {
+    "uuid": 213,
+    "text": "SELECT * FROM table1 t1 JOIN table t2 ON t1.id = t1.id",
+    "tags": []
+  },
+  {
+    "uuid": 214,
+    "text": "To convert text to an editor state: static fromFileData(data) {
+    const json = JSON.parse(data);
+    const contentState = convertFromRaw(json.contentState);
+    const editorState = EditorState.createWithContent(contentState);
+    return new Note(editorState, {
+      date: json.date,
+      id: json.id
+    });",
+    "tags": []
+  },
+  {
+    "uuid": 215,
+    "text": "8 general purpose registers in x86 architecture",
+    "tags": []
+  },
+  {
+    "uuid": 216,
+    "text": "To declare a var in assembly (jasmin at least): `my_var: DB init_val`",
+    "tags": []
+  },
+  {
+    "uuid": 217,
+    "text": "our aurora repo: https://github.com/tundra-code/aurora",
+    "tags": []
+  },
+  {
+    "uuid": 218,
+    "text": "our aurora JIRA: https://auroradev.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=AUR&view=planning&selectedIssue=AUR-15",
+    "tags": []
+  },
+  {
+    "uuid": 219,
+    "text": "How to get unix time (ms since 1970): ```const now = Date.now()```;",
+    "tags": []
+  },
+  {
+    "uuid": 220,
+    "text": "To change state in react use an arrow function like: this.setState(prevState => {
+      prevState.shownNotes = addNewNoteData(prevState.shownNotes, note);
+      prevState.allNotes = addNewNoteData(prevState.allNotes, note);
+      return prevState;
+    });",
+    "tags": []
+  },
+  {
+    "uuid": 221,
+    "text": "Placeholder attribute to add our grey text in the editor: https://draftjs.org/docs/api-reference-editor.html#placeholder
+draftjs.org",
+    "tags": []
+  },
+  {
+    "uuid": 222,
+    "text": "To execute multiple commands in one line (with cross platform compatbility): &&",
+    "tags": []
+  },
+  {
+    "uuid": 223,
+    "text": "Popular sqlite libraries for js: sqlite.js and sqlite3.js",
+    "tags": []
+  },
+  {
+    "uuid": 224,
+    "text": "sqlite is supposedly 35% faster than file io systems when dealing with small blobs (size of thumbnail or smaller)",
+    "tags": []
+  },
+  {
+    "uuid": 225,
+    "text": "the click event for html button: onClick",
+    "tags": []
+  },
+  {
+    "uuid": 226,
+    "text": "Meeting with Gina at 2 on Wednesdays in the project lab",
+    "tags": []
+  },
+  {
+    "uuid": 227,
+    "text": "HW this week 9-19: add more notes to this dataset.",
+    "tags": []
+  },
+  {
+    "uuid": 228,
+    "text": "to reset this branch back to last commit: git reset --hard",
+    "tags": []
+  },
+  {
+    "uuid": 229,
+    "text": "To clean npm: npm clean cache -f",
+    "tags": []
+  },
+  {
+    "uuid": 230,
+    "text": "how to center div: position: absolute and then top:50% and left:50% places the top edge at vertically center of the screen, and left edge at horizontally center, then by adding margin-top to negative of height of the div i.e -100 shifts it above by 100, similarly for margin-left. This gets div exactly in the center of the page.",
+    "tags": []
+  },
+  {
+    "uuid": 231,
+    "text": "To read json file in javascript: var jsonData = JSON.parse(theTextContentOfMyFile);",
+    "tags": []
+  },
+  {
+    "uuid": 232,
+    "text": "One byte contains 8 bits",
+    "tags": []
   }
 ]
