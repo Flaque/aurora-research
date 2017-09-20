@@ -24,9 +24,9 @@ def run_tests(test_file, isPretty=False):
 
     # average/min/max metrics
     if isPretty:
-        print tabulate(metrics, headers="keys")
+        print (tabulate(metrics, headers="keys"))
     else:
-        print metrics
+        print (metrics)
 
 
 def load_json(jfile):
