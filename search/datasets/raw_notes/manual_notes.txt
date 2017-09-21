@@ -30,3 +30,20 @@ To clean npm: npm clean cache -f
 how to center div: position: absolute and then top:50% and left:50% places the top edge at vertically center of the screen, and left edge at horizontally center, then by adding margin-top to negative of height of the div i.e -100 shifts it above by 100, similarly for margin-left. This gets div exactly in the center of the page.
 To read json file in javascript: var jsonData = JSON.parse(theTextContentOfMyFile);
 One byte contains 8 bits
+How do I create a placeholder prop in React by using the placeholder attribute in an editor
+npm install --save try running as root/admin install things globally
+draft js editor default text placeholder attribute
+How to format code in slack ```code here```
+how to pull a remote branch git checkout --track origin/branchname
+how to create a bit vector in vhdl var : bit_vector(1 downto 0)
+how to separate a bit vector in vhld use () to select a bit
+how to use std library in vhld use std_logic_1164.all
+how to push branches correctly make sure youve commited and then git push
+creating an array in c++ var[]=[elements]
+steps for staging files in git git status, git add, git status, git commit -m
+error message vcom 1164 in vhdl its a std library error
+how do go back a file in terminal cd ..
+how many mega bytes in a gigabyte 1000
+how to declare a variable in jasmin a: DB
+how to use cmp in assembly? cmp dest,src have to be register or memory
+how big are registers in x86? 32 bits

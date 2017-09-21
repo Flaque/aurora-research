@@ -1,0 +1,198 @@
+[
+  {
+    "uuid": 1,
+    "text": "When npm post-install keeps failing, try: npm install -g. Installs things globally so now you need to run electron globally also."
+  },
+  {
+    "uuid": 2,
+    "text": "Note to self: windows doesn't accept ../.. notation. So annoying ik"
+  },
+  {
+    "uuid": 3,
+    "text": "To pull remote branch and clone locally: git checkout --track origin/that-branch"
+  },
+  {
+    "uuid": 4,
+    "text": "To align an html element to one side: float left/right."
+  },
+  {
+    "uuid": 5,
+    "text": "When parent div doesn't expand to size of its children: add 'overflow:hidden;'"
+  },
+  {
+    "uuid": 6,
+    "text": "How to make div only partial width of container: 'width:70%'"
+  },
+  {
+    "uuid": 7,
+    "text": "If your class doesn't recognize one of your functions, add this to constructor():`this.myFunc = this.myFunc.bind(this);`"
+  },
+  {
+    "uuid": 8,
+    "text": "Interesting research on reaction times: https://www.nngroup.com/articles/response-times-3-important-limits/"
+  },
+  {
+    "uuid": 9,
+    "text": "To pull code from a remote different branch and merge into your local branch: git pull origin other-branch"
+  },
+  {
+    "uuid": 10,
+    "text": "To change what type of python is run on `python` command: Go into you ~/.bash_profile, add line `alias python=`python3`"
+  },
+  {
+    "uuid": 11,
+    "text": "Software Eng HW: cover section 1 in Project Proposal."
+  },
+  {
+    "uuid": 12,
+    "text": "Inner Join on attributes of the same name: USING (attr)"
+  },
+  {
+    "uuid": 13,
+    "text": "SELECT * FROM table1 t1 JOIN table t2 ON t1.id = t1.id"
+  },
+  {
+    "uuid": 14,
+    "text": "To convert text to an editor state: static fromFileData(data) { const json = JSON.parse(data); const contentState = convertFromRaw(json.contentState); const editorState = EditorState.createWithContent(contentState); return new Note(editorState, date: json.date, id: json.id});"
+  },
+  {
+    "uuid": 15,
+    "text": "8 general purpose registers in x86 architecture"
+  },
+  {
+    "uuid": 16,
+    "text": "To declare a var in assembly (jasmin at least): `my_var: DB init_val`"
+  },
+  {
+    "uuid": 17,
+    "text": "our aurora repo: https://github.com/tundra-code/aurora"
+  },
+  {
+    "uuid": 18,
+    "text": "our aurora JIRA: https://auroradev.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=AUR&view=planning&selectedIssue=AUR-15"
+  },
+  {
+    "uuid": 19,
+    "text": "How to get unix time (ms since 1970): ```const now = Date.now()```;"
+  },
+  {
+    "uuid": 20,
+    "text": "To change state in react use an arrow function like: this.setState(prevState => {prevState.shownNotes = addNewNoteData(prevState.shownNotes, note); prevState.allNotes = addNewNoteData(prevState.allNotes, note); return prevState;});"
+  },
+  {
+    "uuid": 21,
+    "text": "Placeholder attribute to add our grey text in the editor: https://draftjs.org/docs/api-reference-editor.html#placeholderdraftjs.org"
+  },
+  {
+    "uuid": 22,
+    "text": "To execute multiple commands in one line (with cross platform compatbility): &&"
+  },
+  {
+    "uuid": 23,
+    "text": "Popular sqlite libraries for js: sqlite.js and sqlite3.js"
+  },
+  {
+    "uuid": 24,
+    "text": "sqlite is supposedly 35% faster than file io systems when dealing with small blobs (size of thumbnail or smaller)"
+  },
+  {
+    "uuid": 25,
+    "text": "the click event for html button: onClick"
+  },
+  {
+    "uuid": 26,
+    "text": "Meeting with Gina at 2 on Wednesdays in the project lab"
+  },
+  {
+    "uuid": 27,
+    "text": "HW this week 9-19: add more notes to this dataset."
+  },
+  {
+    "uuid": 28,
+    "text": "to reset this branch back to last commit: git reset --hard"
+  },
+  {
+    "uuid": 29,
+    "text": "To clean npm: npm clean cache -f"
+  },
+  {
+    "uuid": 30,
+    "text": "how to center div: position: absolute and then top:50% and left:50% places the top edge at vertically center of the screen, and left edge at horizontally center, then by adding margin-top to negative of height of the div i.e -100 shifts it above by 100, similarly for margin-left. This gets div exactly in the center of the page."
+  },
+  {
+    "uuid": 31,
+    "text": "To read json file in javascript: var jsonData = JSON.parse(theTextContentOfMyFile);"
+  },
+  {
+    "uuid": 32,
+    "text": "One byte contains 8 bits"
+  },
+  {
+    "uuid": 33,
+    "text": "How do I create a placeholder prop in React by using the placeholder attribute in an editor"
+  },
+  {
+    "uuid": 34,
+    "text": "npm install --save try running as root/admin install things globally"
+  },
+  {
+    "uuid": 35,
+    "text": "draft js editor default text placeholder attribute"
+  },
+  {
+    "uuid": 36,
+    "text": "How to format code in slack ```code here```"
+  },
+  {
+    "uuid": 37,
+    "text": "how to pull a remote branch git checkout --track origin/branchname"
+  },
+  {
+    "uuid": 38,
+    "text": "how to create a bit vector in vhdl var : bit_vector(1 downto 0)"
+  },
+  {
+    "uuid": 39,
+    "text": "how to separate a bit vector in vhld use () to select a bit"
+  },
+  {
+    "uuid": 40,
+    "text": "how to use std library in vhld use std_logic_1164.all"
+  },
+  {
+    "uuid": 41,
+    "text": "how to push branches correctly make sure youve commited and then git push"
+  },
+  {
+    "uuid": 42,
+    "text": "creating an array in c++ var[]=[elements]"
+  },
+  {
+    "uuid": 43,
+    "text": "steps for staging files in git git status, git add, git status, git commit -m"
+  },
+  {
+    "uuid": 44,
+    "text": "error message vcom 1164 in vhdl its a std library error"
+  },
+  {
+    "uuid": 45,
+    "text": "how do go back a file in terminal cd .."
+  },
+  {
+    "uuid": 46,
+    "text": "how many mega bytes in a gigabyte 1000"
+  },
+  {
+    "uuid": 47,
+    "text": "how to declare a variable in jasmin a: DB"
+  },
+  {
+    "uuid": 48,
+    "text": "how to use cmp in assembly? cmp dest,src have to be register or memory"
+  },
+  {
+    "uuid": 49,
+    "text": "how big are registers in x86? 32 bits"
+  }
+]
