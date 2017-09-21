@@ -47,3 +47,54 @@ how many mega bytes in a gigabyte 1000
 how to declare a variable in jasmin a: DB
 how to use cmp in assembly? cmp dest,src have to be register or memory
 how big are registers in x86? 32 bits
+165 folks, 4 offices, 80/85 folks in SF. Engineering office in Vancoover, business office in NYC, Dublin Ireland. 
+Integrations engineers, builds point to point jazz, clean docs, ect, resilient integrations  
+Infastructure - Scaled up queues that work with different endpoints 
+Breadth first search starts at a single node and then row by row expands outwards. It goes by layers, not by searching exhaustively a single tree source. 
+https://breakoutlist.com/
+I learned to react to change better. I learned I need to bring up issues and problems as soon as they happen rather than let them slide. I should have a higher standard of quality rather than wasting time as a result of shyness or perceived inability. I learned to accept that changes are going to happen and to try and make them happen quicker and be able to adapt better. I also learned that change is not inherently negative and can help a product become better overall. 
+Modules - They should all be run with “npm start” and all should be tested with “npm test”
+https://github.com/theanalyst/awesome-distributed-systems
+What’s the proper way to test plugins that rely on volley/network requests? Is there a standardized way to get robolectric and power mock to work together? 
+Has anyone got instant run to work? Fixing permissions issues? How do we speed up build times?
+Code should not be “owned” by any one person. Even if the senior design class wants us to say “Kyle did BLAH and Ethan did FOO” we should not maintain such ideas. Any person can edit and work on any part of the project. 
+We’ll be blocked less as we don’t have to wait for “that person” who knows how to work with XYZ. For example, we faced this problem with previous projects as, in general, Ethan was the only one who worked on backend stuff and therefor the only person who knew how it worked.
+1 week sprints with 1 standup and 1 retrospective/planning meeting
+We all learn more and get a broader understanding of the whole system rather than just doing the same thing over and over.
+We should have sprints that only last a week. More established “real” companies can have longer sprints (2, 3, or 4 week sprints) because they have several other checks in place to check in, solve blockers, and keep things working. Their programmers are generally all working full time, in an office, with several other meetings. 
+we have school and all sorts of other things and can’t work on it full time. Because of that, we’re more likely to get distracted or slow down or get hit with blockers if we don’t have regular checkups. More sprints keep us honest and let us adapt to problems quicker. It also forces us to have smaller tasks that can be completed in a shorter amount of time, which works better when our day-to-day lives are so variable. 
+With 1 week sprints, we should have 1 standup and 1 retrospective/planning meeting.
+We don’t need a standup each day. We may only work on this an hour or two a day anyway, so filling that up with standup meetings might take up too much time. Also, there will some days where some of us can’t work at all due to a test or homework or whatever.  Therefore a standup each day is probably going to be overkill. Instead, let’s have 1 standup somewhere in the middle of the week so we can catch problems before the end of the sprint, but not take up too much time.
+“I’ve seen a team of three people operate in such a way that each person published interfaces to the other two. This led to all sorts of gyrations to maintain interfaces when it would have been easier to go into the code base and make the edits. Organizations with an overly strong notion of code ownership tend to behave this way. Using published interfaces is useful, but it comes with a cost. So don’t publish interfaces unless you really need to. This may mean modifying your code ownership rules to allow people to change other people’s code in order to support an interface change.
+ec.test.amzn@gmail.com
+https://github.com/jaredreich/pell
+post-review --no-review-guess --parent=<branch with CR#1>
+You MUST leave the code better than you found it. If you cannot leave the code better than you found it, you MUST write a comment that says “I cannot leave the code better than I found it”, otherwise your code review will be rejected. 
+If ESLint doesn’t allow you to merge, then don’t merge. There should be 0 warnings in your ESLint.
+Story points should be seeded off of small tasks, not on time. Story points should not be seeded with a “task”
+When you send an intent to another app, THEY need an activity that can listen for the mime type and action your sending, other wise it will fail.
+https://github.com/reactjs/react-docgen 
+Is there a gray background or some sort of opacity or filter to stop something like white text on a white background to happen?
+“Application or device usage data containing or derived from arbitrary, non-public user input. (Examples include, but are not limited to, notes on books, URLs of websites, and the names or contents of files)“ 
+Do we alert the user if the ratio size is too big? 
+As a developer, I want to know wether or not customers swipe to see the other background images
+3:30-4 for demo? Notable-notes-dev? 
+Albedo -> Whiteness or reflectivity. The more white the surface is the more reflective it is. 
+6 degrees changes between glacial period and non glacial period.
+Many users, when asked to search, tried to press command-f. Maybe this should focus the submit editor to nudge the user towards the correct usage.
+Bug: User should not be able to make an empty note
+Enhancement: Command-F should focus the SubmitEditor
+Enhancement: Tokenize each word in the search query
+Potential Enhancement: Search only after the user stops typing
+Potential Enhancement: Search should fill a “queue” of most recent items rather than flipping things around
+The search should act as a stream of items and when it finds something, it should add it to the “queue” of items appearing on the feed.
+Feature: Notes should be editable
+Notes should be implemented as Editors, which will give both similar structure and the ability to change the notes.
+Feature: Notes should be saved
+There’s currently no way to persist your notes
+Feature: Notes should be able to be deleted
+You should be able to remove your notes from the screen and to remove them from any saves
+Hashes - A signature: fixed-length fingerprint, ex: 128-bit, 160-bit, 256-bit
+Requirement statements (requirements) AKA User stories
+Project plan - The point: Demonstrate (to me, advisor, dab, sponsor) that you understand what has been done in the space
+Backfire Effect —> Deny stuff that is very scary 
