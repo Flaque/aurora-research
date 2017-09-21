@@ -1,0 +1,32 @@
+When npm post-install keeps failing, try: npm install -g. Installs things globally so now you need to run electron globally also.
+Note to self: windows doesn't accept ../.. notation. So annoying ik
+To pull remote branch and clone locally: git checkout --track origin/that-branch
+To align an html element to one side: float left/right.
+When parent div doesn't expand to size of its children: add 'overflow:hidden;'
+How to make div only partial width of container: 'width:70%'
+If your class doesn't recognize one of your functions, add this to constructor():`this.myFunc = this.myFunc.bind(this);`
+Interesting research on reaction times: https://www.nngroup.com/articles/response-times-3-important-limits/
+To pull code from a remote different branch and merge into your local branch: git pull origin other-branch
+To change what type of python is run on `python` command: Go into you ~/.bash_profile, add line `alias python=`python3`
+Software Eng HW: cover section 1 in Project Proposal.
+Inner Join on attributes of the same name: USING (attr)
+SELECT * FROM table1 t1 JOIN table t2 ON t1.id = t1.id
+To convert text to an editor state: static fromFileData(data) { const json = JSON.parse(data); const contentState = convertFromRaw(json.contentState); const editorState = EditorState.createWithContent(contentState); return new Note(editorState, date: json.date, id: json.id});
+8 general purpose registers in x86 architecture
+To declare a var in assembly (jasmin at least): `my_var: DB init_val`
+our aurora repo: https://github.com/tundra-code/aurora
+our aurora JIRA: https://auroradev.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=AUR&view=planning&selectedIssue=AUR-15
+How to get unix time (ms since 1970): ```const now = Date.now()```;
+To change state in react use an arrow function like: this.setState(prevState => {prevState.shownNotes = addNewNoteData(prevState.shownNotes, note); prevState.allNotes = addNewNoteData(prevState.allNotes, note); return prevState;});
+Placeholder attribute to add our grey text in the editor: https://draftjs.org/docs/api-reference-editor.html#placeholderdraftjs.org
+To execute multiple commands in one line (with cross platform compatbility): &&
+Popular sqlite libraries for js: sqlite.js and sqlite3.js
+sqlite is supposedly 35% faster than file io systems when dealing with small blobs (size of thumbnail or smaller)
+the click event for html button: onClick
+Meeting with Gina at 2 on Wednesdays in the project lab
+HW this week 9-19: add more notes to this dataset.
+to reset this branch back to last commit: git reset --hard
+To clean npm: npm clean cache -f
+how to center div: position: absolute and then top:50% and left:50% places the top edge at vertically center of the screen, and left edge at horizontally center, then by adding margin-top to negative of height of the div i.e -100 shifts it above by 100, similarly for margin-left. This gets div exactly in the center of the page.
+To read json file in javascript: var jsonData = JSON.parse(theTextContentOfMyFile);
+One byte contains 8 bits

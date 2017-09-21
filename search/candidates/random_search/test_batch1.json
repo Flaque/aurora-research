@@ -1,6 +1,6 @@
 {
   "command": "python candidates/random_search/random_search.py",
-  "dataset_file": "search_bench/resources/dataset1.json",
+  "dataset_file": "datasets/formatted_datasets/dataset1.json",
   "tests": [
     {
       "search_text": "How python3 is different",
