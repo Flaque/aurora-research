@@ -9,6 +9,10 @@ In traditional extensibility models, users can only add onto the existing applic
 
 This means that Aurora can branch off from a single root node and become wildly different applications depending on user's desires. 
 
+![Tree diagram of Extensions](https://i.imgur.com/Xbfd4PJ.jpg)
+
+
+
 ## Major Assumptions Made
 
 ### We're continuing to use Electron or some other web platform. 
